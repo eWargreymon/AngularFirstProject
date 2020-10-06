@@ -1,7 +1,20 @@
-<h1>Hello World!</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-lgpush-3 col-md-push-3">
+            <div class="text-center">
+                <h1><strong> {{ title }} </strong></h1>
+                <hr>
+                <p>Welcome to angular project</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <app-new-comp></app-new-comp>
+        <app-new-comp></app-new-comp>
+        <app-new-comp></app-new-comp>
+        <app-new-comp></app-new-comp>
+    </div>
+</div>
 
-<p>Welcome to first angular project</p>
-
-<app-new-comp></app-new-comp>
 
 <router-outlet></router-outlet>
